@@ -11,7 +11,7 @@ public class AAA {
 
             for (int y=1;y<=2*x-1;y++) {
 
-                System.out.print("*");
+                System.out.print("&");
 
             }
 
