@@ -1,3 +1,5 @@
+import java.util.Arrays;
+import java.time.format.DateTimeFormatter;
 public class Pyramid {
     public static void main(String[] args) {
         int n=5;
@@ -8,7 +10,9 @@ public class Pyramid {
             for (int j=0;(j<=(2*i));j++) {
                 System.out.print("*");
             }
+
             System.out.print("\n");
+            
         }
     }
 }
