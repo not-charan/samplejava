@@ -1,8 +1,7 @@
 import java.util.*;
 public class iterrablile {
     public static void main(String[] args) {
-        Deque<String> dq
-                = new ArrayDeque<String>();
+        Deque<String> dq = new ArrayDeque<String>();
 
 
         dq.addFirst("Chintala");
