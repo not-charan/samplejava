@@ -13,6 +13,6 @@ public class iterrablile {
         String a =dq.removeLast();
         String b =dq.removeFirst();
         System.out.println("First name is " +b);
-
     }
 }
+
