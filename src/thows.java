@@ -21,7 +21,6 @@ public  class thows{
                 System.out.println(Math.PI*r*r);
             }
     }
-
     public static void main(String[] args) {
         thows t1 =new thows();
         try {
@@ -31,5 +30,4 @@ public  class thows{
             System.out.println("Negative radius doesn't exist");
         }
     }
-
 }
