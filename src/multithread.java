@@ -7,6 +7,7 @@ public class multithread extends  Thread {
         while (i <= 9) {
             System.out.println("thread Number " + Thread.currentThread().getId());
             i++;
+            
         }
     }
     public static class bye extends Thread {

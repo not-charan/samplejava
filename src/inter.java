@@ -23,5 +23,7 @@ interface inter {
       yo a1 =new yo();
       a1.alpha();
       a1.number();
+      yo a2 =new yo();
+      a2.number();
     }
 }
