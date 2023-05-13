@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class test {
     public static void main(String[] args) {
         int[] a =new int[9];
@@ -9,13 +7,10 @@ public class test {
 
         try {
             try {
-                System.out.println(a[2]);
+                System.out.println(a[9]/0);
             }
             catch (ArithmeticException e){
                 e.printStackTrace();
-            }
-            catch (NullPointerException c ){
-                c.printStackTrace();
             }
         }
         catch (ArrayIndexOutOfBoundsException b){

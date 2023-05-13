@@ -1,5 +1,14 @@
 import java.util.Scanner;
 
+class Workingexception extends Exception {
+    public String toString() {
+        return "qwException";
+    }
+    public String getMessage() {
+         return  "Exception";
+    }
+}
+
 class working {
     int identification;
     String brand;
@@ -24,11 +33,11 @@ class working {
         } catch (Workingexception e) {
             System.out.println(e.getMessage());
             System.out.print("Enter the brand name:");
-            this.brand = input.toString();
+
             try {
-                if (brand != "Ford" || brand != "Honda" || brand != "Toyota" || brand != "Chrysel") {
+                this.brand=input.nextLine();
+                if (brand != "Ford" || brand != "Honda" || brand != "Toyota" || brand != "Chrysel")
                     throw new Workingexception();
-                }
 
             } catch (Workingexception a) {
                 System.out.println(a.getMessage());
@@ -56,20 +65,16 @@ class working {
         }
     public static void main(String[] args) {
          working w1 =new working();
+
         try {
             w1.working();
         } catch (Workingexception e) {
             throw new RuntimeException(e);
         }
     }
+
 }
-    class Workingexception extends Exception {
-        public String toString() {
-            return super.toString() + "qwException";
-        }
-        public String getMessage() {
-            return super.getMessage() + "Exception";
-        }
-    }
+
+
 
 

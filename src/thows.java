@@ -2,11 +2,11 @@ import java.util.Scanner;
 class Negativeradius extends Exception {
     @Override
     public String toString() {
-        return super.toString()+ "Negative radius exception";
+        return   "Negative radius exception";
     }
     @Override
     public String getMessage() {
-        return super.getMessage()+"Negative radius exception";
+        return "Negative radius exception";
     }
 }
 
